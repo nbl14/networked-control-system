@@ -1,0 +1,743 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o (exit)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+                              pendulum.o (__do_copy_data)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+                              cat_lib.o (__do_clear_bss)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+                              lcd_farhan.o (__umulhisi3)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(memcmp.o)
+                              w5100lib/dhcp.o (memcmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+lcd_msg_var         0x10              cat_lib.o
+test                0x1               cat_lib.o
+flag_var            0x1               cat_lib.o
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o
+ .text          0x00000000        0x0 cat_lib.o
+ .bss           0x00000000        0x0 cat_lib.o
+ .text.setupADC_8
+                0x00000000        0xe cat_lib.o
+ .text.getADCdata_8
+                0x00000000       0x1c cat_lib.o
+ .text.setupADC_10_aref
+                0x00000000        0x8 cat_lib.o
+ .text.setupCounterT0
+                0x00000000        0x4 cat_lib.o
+ .text.setupCounterT0_nonstop
+                0x00000000        0xa cat_lib.o
+ .text.count_for_100ms_T0_nonstop
+                0x00000000       0x18 cat_lib.o
+ .text.count_for_100ms_T0
+                0x00000000       0x20 cat_lib.o
+ .text.count_for_95ms_T0_nonstop
+                0x00000000       0x16 cat_lib.o
+ .text.count_for_var_T0_nonstop
+                0x00000000       0x18 cat_lib.o
+ .text.count_for_50ms_T0_nonstop
+                0x00000000       0x20 cat_lib.o
+ .text.count_for_50ms_T0
+                0x00000000       0x20 cat_lib.o
+ .text.setupCounterT0_asynch
+                0x00000000       0x1e cat_lib.o
+ .text.setupPWM_T2
+                0x00000000       0x16 cat_lib.o
+ COMMON         0x00000000       0x12 cat_lib.o
+ .text          0x00000000        0x0 pendulum.o
+ .bss           0x00000000        0x0 pendulum.o
+ .text          0x00000000        0x0 lcd_farhan.o
+ .bss           0x00000000        0x0 lcd_farhan.o
+ .text.UpdateDigits
+                0x00000000      0x140 lcd_farhan.o
+ .text          0x00000000        0x0 w5100lib/dhcp.o
+ .bss           0x00000000        0x0 w5100lib/dhcp.o
+ .rodata        0x00000000        0x7 w5100lib/dhcp.o
+ .text.runDHCP  0x00000000      0x71c w5100lib/dhcp.o
+ .bss.pRIPMSG.2056
+                0x00000000        0x2 w5100lib/dhcp.o
+ .bss.DHCP_SIP.2054
+                0x00000000        0x4 w5100lib/dhcp.o
+ .text          0x00000000        0x0 w5100lib/socket.o
+ .bss           0x00000000        0x0 w5100lib/socket.o
+ .text.listen   0x00000000       0x3a w5100lib/socket.o
+ .text.connect  0x00000000      0x10a w5100lib/socket.o
+ .text.disconnect
+                0x00000000       0x26 w5100lib/socket.o
+ .text.send     0x00000000       0xce w5100lib/socket.o
+ .text.recv     0x00000000       0x4c w5100lib/socket.o
+ .text.igmpsend
+                0x00000000       0xb2 w5100lib/socket.o
+ .text          0x00000000        0x0 w5100lib/spi.o
+ .bss           0x00000000        0x0 w5100lib/spi.o
+ .text.IINCHIP_INTInit_real
+                0x00000000        0x2 w5100lib/spi.o
+ .text          0x00000000        0x0 w5100lib/w5100.o
+ .bss           0x00000000        0x0 w5100lib/w5100.o
+ .text.getISR   0x00000000        0xc w5100lib/w5100.o
+ .text.putISR   0x00000000        0xc w5100lib/w5100.o
+ .text.setMR    0x00000000        0xc w5100lib/w5100.o
+ .text.iinchip_init
+                0x00000000        0x8 w5100lib/w5100.o
+ .text.getGWIP  0x00000000       0x34 w5100lib/w5100.o
+ .text.getIR    0x00000000        0xa w5100lib/w5100.o
+ .text.setRTR   0x00000000       0x1c w5100lib/w5100.o
+ .text.setRCR   0x00000000        0xc w5100lib/w5100.o
+ .text.setIMR   0x00000000        0xc w5100lib/w5100.o
+ .text.getGAR   0x00000000       0x34 w5100lib/w5100.o
+ .text.getSUBR  0x00000000       0x1c w5100lib/w5100.o
+ .text.getSHAR  0x00000000       0x48 w5100lib/w5100.o
+ .text.getSIPR  0x00000000       0x34 w5100lib/w5100.o
+ .text.getSn_DHAR
+                0x00000000       0x5c w5100lib/w5100.o
+ .text.setSn_DHAR
+                0x00000000       0x66 w5100lib/w5100.o
+ .text.getSn_DIPR
+                0x00000000       0x48 w5100lib/w5100.o
+ .text.setSn_DIPR
+                0x00000000       0x4e w5100lib/w5100.o
+ .text.getSn_DPORT
+                0x00000000       0x34 w5100lib/w5100.o
+ .text.setSn_DPORT
+                0x00000000       0x34 w5100lib/w5100.o
+ .text.setSn_MSS
+                0x00000000       0x2e w5100lib/w5100.o
+ .text.setSn_TTL
+                0x00000000       0x10 w5100lib/w5100.o
+ .text.setSn_PROTO
+                0x00000000       0x10 w5100lib/w5100.o
+ .text.getSn_IR
+                0x00000000       0x10 w5100lib/w5100.o
+ .text.setSn_IR
+                0x00000000       0x10 w5100lib/w5100.o
+ .text.getSn_SR
+                0x00000000       0x10 w5100lib/w5100.o
+ .text.getSn_TX_FSR
+                0x00000000       0x90 w5100lib/w5100.o
+ .text.getSn_RX_RSR
+                0x00000000       0x90 w5100lib/w5100.o
+ .text.recv_data_processing
+                0x00000000       0x86 w5100lib/w5100.o
+ .bss.I_STATUS  0x00000000        0x4 w5100lib/w5100.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x00000000       0x18 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .text.avr-libc
+                0x00000000       0x1a c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(memcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o
+LOAD cat_lib.o
+LOAD pendulum.o
+LOAD lcd_farhan.o
+LOAD w5100lib/dhcp.o
+LOAD w5100lib/socket.o
+LOAD w5100lib/spi.o
+LOAD w5100lib/w5100.o
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libm.a
+END GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xf90
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o
+                0x0000008e                __vector_1
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_6
+                0x0000008e                __vector_3
+                0x0000008e                __vector_11
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_7
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_15
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_10
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+                0x00000092                . = ALIGN (0x2)
+ *(.text.*)
+ .text.setupADC_10
+                0x00000092        0xe cat_lib.o
+                0x00000092                setupADC_10
+ .text.getADCdata_10
+                0x000000a0       0x2a cat_lib.o
+                0x000000a0                getADCdata_10
+ .text.setupPWM_T1
+                0x000000ca       0x14 cat_lib.o
+                0x000000ca                setupPWM_T1
+ .text.startPWM_T1A_LOW1_Q10
+                0x000000de        0x8 cat_lib.o
+                0x000000de                startPWM_T1A_LOW1_Q10
+ .text.stopPWM_T1A_LOW1_Q10
+                0x000000e6        0x8 cat_lib.o
+                0x000000e6                stopPWM_T1A_LOW1_Q10
+ .text.startPWM_T1B_LOW2_Q11
+                0x000000ee        0x8 cat_lib.o
+                0x000000ee                startPWM_T1B_LOW2_Q11
+ .text.stopPWM_T1B_LOW2_Q11
+                0x000000f6        0x8 cat_lib.o
+                0x000000f6                stopPWM_T1B_LOW2_Q11
+ .text.main     0x000000fe      0x200 pendulum.o
+                0x000000fe                main
+ .text.wrLCDnibble
+                0x000002fe       0x20 lcd_farhan.o
+                0x000002fe                wrLCDnibble
+ .text.wrLCDcmd
+                0x0000031e       0x26 lcd_farhan.o
+                0x0000031e                wrLCDcmd
+ .text.wrLCDchr
+                0x00000344       0x24 lcd_farhan.o
+                0x00000344                wrLCDchr
+ .text.LCD_msg  0x00000368       0x1e lcd_farhan.o
+                0x00000368                LCD_msg
+ .text.Init_LCD
+                0x00000386       0xe4 lcd_farhan.o
+                0x00000386                Init_LCD
+ .text.lcd_msg_delayed
+                0x0000046a       0x28 lcd_farhan.o
+                0x0000046a                lcd_msg_delayed
+ .text.close    0x00000492       0x3e w5100lib/socket.o
+                0x00000492                close
+ .text.socket   0x000004d0       0x9e w5100lib/socket.o
+                0x000004d0                socket
+ .text.sendto   0x0000056e      0x13a w5100lib/socket.o
+                0x0000056e                sendto
+ .text.recvfrom
+                0x000006a8      0x1e4 w5100lib/socket.o
+                0x000006a8                recvfrom
+ .text.IINCHIP_SpiInit_real
+                0x0000088c       0x14 w5100lib/spi.o
+                0x0000088c                IINCHIP_SpiInit_real
+ .text.getIINCHIP_RxMAX
+                0x000008a0       0x12 w5100lib/w5100.o
+                0x000008a0                getIINCHIP_RxMAX
+ .text.getIINCHIP_TxMAX
+                0x000008b2       0x12 w5100lib/w5100.o
+                0x000008b2                getIINCHIP_TxMAX
+ .text.getIINCHIP_RxMASK
+                0x000008c4       0x12 w5100lib/w5100.o
+                0x000008c4                getIINCHIP_RxMASK
+ .text.getIINCHIP_TxMASK
+                0x000008d6       0x12 w5100lib/w5100.o
+                0x000008d6                getIINCHIP_TxMASK
+ .text.getIINCHIP_RxBASE
+                0x000008e8       0x12 w5100lib/w5100.o
+                0x000008e8                getIINCHIP_RxBASE
+ .text.getIINCHIP_TxBASE
+                0x000008fa       0x12 w5100lib/w5100.o
+                0x000008fa                getIINCHIP_TxBASE
+ .text.IINCHIP_WRITE
+                0x0000090c       0x22 w5100lib/w5100.o
+                0x0000090c                IINCHIP_WRITE
+ .text.IINCHIP_READ
+                0x0000092e       0x22 w5100lib/w5100.o
+                0x0000092e                IINCHIP_READ
+ .text.wiz_write_buf
+                0x00000950       0x3e w5100lib/w5100.o
+                0x00000950                wiz_write_buf
+ .text.wiz_read_buf
+                0x0000098e       0x40 w5100lib/w5100.o
+                0x0000098e                wiz_read_buf
+ .text.__vector_2
+                0x000009ce       0x14 w5100lib/w5100.o
+                0x000009ce                __vector_2
+ .text.sysinit  0x000009e2      0x2dc w5100lib/w5100.o
+                0x000009e2                sysinit
+ .text.setGAR   0x00000cbe       0x34 w5100lib/w5100.o
+                0x00000cbe                setGAR
+ .text.setSUBR  0x00000cf2       0x1c w5100lib/w5100.o
+                0x00000cf2                setSUBR
+ .text.applySUBR
+                0x00000d0e       0x32 w5100lib/w5100.o
+                0x00000d0e                applySUBR
+ .text.clearSUBR
+                0x00000d40       0x2a w5100lib/w5100.o
+                0x00000d40                clearSUBR
+ .text.setSHAR  0x00000d6a       0x48 w5100lib/w5100.o
+                0x00000d6a                setSHAR
+ .text.setSIPR  0x00000db2       0x34 w5100lib/w5100.o
+                0x00000db2                setSIPR
+ .text.write_data
+                0x00000de6       0x90 w5100lib/w5100.o
+                0x00000de6                write_data
+ .text.send_data_processing
+                0x00000e76       0x86 w5100lib/w5100.o
+                0x00000e76                send_data_processing
+ .text.read_data
+                0x00000efc       0x90 w5100lib/w5100.o
+                0x00000efc                read_data
+                0x00000f8c                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000f8c        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+                0x00000f8c                _exit
+                0x00000f8c                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000f8c        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000f90                _etext = .
+
+.data           0x00800060       0x28 load address 0x00000f90
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o
+ .data          0x00800060        0x0 cat_lib.o
+ .data          0x00800060        0x0 pendulum.o
+ .data          0x00800060        0x0 lcd_farhan.o
+ .data          0x00800060        0x0 w5100lib/dhcp.o
+ .data          0x00800060        0x0 w5100lib/socket.o
+ .data          0x00800060        0x0 w5100lib/spi.o
+ .data          0x00800060        0x0 w5100lib/w5100.o
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ *(.data*)
+ *(.rodata)
+ .rodata        0x00800060        0xd pendulum.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x0080006d       0x1b w5100lib/socket.o
+ *(.gnu.linkonce.d*)
+                0x00800088                . = ALIGN (0x2)
+                0x00800088                _edata = .
+                0x00800088                PROVIDE (__data_end, .)
+
+.bss            0x00800088       0x36
+                0x00800088                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.local_port
+                0x00800088        0x2 w5100lib/socket.o
+ .bss.RSIZE     0x0080008a        0x8 w5100lib/w5100.o
+ .bss.SSIZE     0x00800092        0x8 w5100lib/w5100.o
+ .bss.RMASK     0x0080009a        0x8 w5100lib/w5100.o
+ .bss.SMASK     0x008000a2        0x8 w5100lib/w5100.o
+ .bss.RBUFBASEADDRESS
+                0x008000aa        0x8 w5100lib/w5100.o
+ .bss.SBUFBASEADDRESS
+                0x008000b2        0x8 w5100lib/w5100.o
+ .bss.SUBN_VAR  0x008000ba        0x4 w5100lib/w5100.o
+ *(COMMON)
+                0x008000be                PROVIDE (__bss_end, .)
+                0x00000f90                __data_load_start = LOADADDR (.data)
+                0x00000fb8                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008000be        0x0
+                0x008000be                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008000be                PROVIDE (__noinit_end, .)
+                0x008000be                _end = .
+                0x008000be                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x00000000      0x780
+ *(.stab)
+ .stab          0x00000000      0x6cc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o
+ .stab          0x000006cc       0xb4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(memcmp.o)
+                                 0xc0 (size before relaxing)
+
+.stabstr        0x00000000      0x10b
+ *(.stabstr)
+ .stabstr       0x00000000      0x10b c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm16.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f cat_lib.o
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 pendulum.o
+ .comment       0x00000000       0x30 lcd_farhan.o
+ .comment       0x00000000       0x30 w5100lib/dhcp.o
+ .comment       0x00000000       0x30 w5100lib/socket.o
+ .comment       0x00000000       0x30 w5100lib/spi.o
+ .comment       0x00000000       0x30 w5100lib/w5100.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x378
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xb8 cat_lib.o
+ .debug_aranges
+                0x000000b8       0x20 pendulum.o
+ .debug_aranges
+                0x000000d8       0x50 lcd_farhan.o
+ .debug_aranges
+                0x00000128       0x20 w5100lib/dhcp.o
+ .debug_aranges
+                0x00000148       0x68 w5100lib/socket.o
+ .debug_aranges
+                0x000001b0       0x28 w5100lib/spi.o
+ .debug_aranges
+                0x000001d8      0x1a0 w5100lib/w5100.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x431e
+ *(.debug_info)
+ .debug_info    0x00000000      0x50b cat_lib.o
+ .debug_info    0x0000050b      0x67c pendulum.o
+ .debug_info    0x00000b87      0x791 lcd_farhan.o
+ .debug_info    0x00001318      0x869 w5100lib/dhcp.o
+ .debug_info    0x00001b81      0xf4c w5100lib/socket.o
+ .debug_info    0x00002acd       0xed w5100lib/spi.o
+ .debug_info    0x00002bba     0x1764 w5100lib/w5100.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xa83
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x15d cat_lib.o
+ .debug_abbrev  0x0000015d      0x1d6 pendulum.o
+ .debug_abbrev  0x00000333      0x181 lcd_farhan.o
+ .debug_abbrev  0x000004b4      0x195 w5100lib/dhcp.o
+ .debug_abbrev  0x00000649      0x1db w5100lib/socket.o
+ .debug_abbrev  0x00000824       0x74 w5100lib/spi.o
+ .debug_abbrev  0x00000898      0x1eb w5100lib/w5100.o
+
+.debug_line     0x00000000     0x1350
+ *(.debug_line)
+ .debug_line    0x00000000      0x32f cat_lib.o
+ .debug_line    0x0000032f      0x22a pendulum.o
+ .debug_line    0x00000559      0x295 lcd_farhan.o
+ .debug_line    0x000007ee      0x27f w5100lib/dhcp.o
+ .debug_line    0x00000a6d      0x25b w5100lib/socket.o
+ .debug_line    0x00000cc8       0xf3 w5100lib/spi.o
+ .debug_line    0x00000dbb      0x595 w5100lib/w5100.o
+
+.debug_frame    0x00000000      0xaec
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x154 cat_lib.o
+ .debug_frame   0x00000154       0x34 pendulum.o
+ .debug_frame   0x00000188       0xc0 lcd_farhan.o
+ .debug_frame   0x00000248       0x68 w5100lib/dhcp.o
+ .debug_frame   0x000002b0      0x23c w5100lib/socket.o
+ .debug_frame   0x000004ec       0x34 w5100lib/spi.o
+ .debug_frame   0x00000520      0x5cc w5100lib/w5100.o
+
+.debug_str      0x00000000      0xc0a
+ *(.debug_str)
+ .debug_str     0x00000000      0x29d cat_lib.o
+                                0x2d6 (size before relaxing)
+ .debug_str     0x0000029d       0xe1 pendulum.o
+                                0x2a9 (size before relaxing)
+ .debug_str     0x0000037e       0x95 lcd_farhan.o
+                                0x1b0 (size before relaxing)
+ .debug_str     0x00000413      0x4c2 w5100lib/dhcp.o
+                                0x617 (size before relaxing)
+ .debug_str     0x000008d5       0xeb w5100lib/socket.o
+                                0x21e (size before relaxing)
+ .debug_str     0x000009c0       0x27 w5100lib/spi.o
+                                0x11e (size before relaxing)
+ .debug_str     0x000009e7      0x223 w5100lib/w5100.o
+                                0x3f4 (size before relaxing)
+
+.debug_loc      0x00000000     0x3283
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x7e cat_lib.o
+ .debug_loc     0x0000007e      0x168 pendulum.o
+ .debug_loc     0x000001e6      0x305 lcd_farhan.o
+ .debug_loc     0x000004eb      0x7d8 w5100lib/dhcp.o
+ .debug_loc     0x00000cc3      0xe33 w5100lib/socket.o
+ .debug_loc     0x00001af6     0x178d w5100lib/w5100.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x308
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xa8 cat_lib.o
+ .debug_ranges  0x000000a8       0x10 pendulum.o
+ .debug_ranges  0x000000b8       0x40 lcd_farhan.o
+ .debug_ranges  0x000000f8       0x10 w5100lib/dhcp.o
+ .debug_ranges  0x00000108       0x58 w5100lib/socket.o
+ .debug_ranges  0x00000160       0x18 w5100lib/spi.o
+ .debug_ranges  0x00000178      0x190 w5100lib/w5100.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(pendulum.elf elf32-avr)
+LOAD linker stubs
